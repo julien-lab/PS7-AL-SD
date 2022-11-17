@@ -1,0 +1,1281 @@
+[
+  {
+    "label": "Nam LLC 874",
+    "longitude": "85.45452",
+    "latitude": "-2.24237",
+    "sellerId": 1854245,
+    "id": 1234567,
+    "storeRating": {
+      "averageRate": 10,
+      "voterNumber": 1
+    },
+    "promotions": [
+      {
+        "title": "50% off",
+        "description": "only for shoes",
+        "startDate": "2020-12-14",
+        "endDate": "2020-12-15",
+        "shopId": 1234567,
+        "id": 1607911981694,
+        "public": true,
+        "customersNumberInterested": [
+          1987,
+          1999,
+          1867
+        ],
+        "notifiedCustomersNumber": [
+          1987,
+          1988,
+          1999,
+          1867,
+          1,
+          9
+        ]
+      },
+      {
+        "title": "70% off",
+        "description": "only for t-shirts",
+        "startDate": "2020-02-20",
+        "endDate": "2020-02-20",
+        "customersNumberInterested": [
+          1999,
+          1987
+        ],
+        "notifiedCustomersNumber": [
+          1999,
+          1987,
+          1,
+          9
+        ],
+        "shopId": 1234567,
+        "id": 1608149454567
+      },
+      {
+        "title": "10% off",
+        "description": "for everything",
+        "startDate": "2020-02-20",
+        "endDate": "2020-02-20",
+        "customersNumberInterested": [],
+        "notifiedCustomersNumber": [
+          1987,
+          9,
+          1
+        ],
+        "shopId": 1234567,
+        "id": 1609751185673
+      }
+    ],
+    "averagePresenceBeforePurchase": {
+      "numberOfPurchases": 17,
+      "numberOfPresence": 22
+    },
+    "purchasedItems": [
+      [
+        "Flashbang",
+        "2"
+      ],
+      [
+        "Rocket launcher",
+        "0"
+      ],
+      [
+        "Rocket",
+        "0"
+      ],
+      [
+        " Incendiary",
+        "0"
+      ],
+      [
+        "Desert eagle",
+        "0"
+      ],
+      [
+        "Kevlar",
+        "0"
+      ],
+      [
+        "Helmet",
+        "0"
+      ],
+      [
+        "AWP",
+        "0"
+      ],
+      [
+        "Ak-47",
+        "0"
+      ]
+    ],
+    "numberOfPurchaseByAgeRang": [
+      76,
+      28,
+      74,
+      8,
+      74,
+      48
+    ],
+    "numberOfPurchaseBySexRang": [
+      202,
+      106
+    ],
+    "parkingSpace": {
+      "nbrPlace": 4,
+      "nbrPlaceFree": 3,
+      "nbrPlaceUnassignable": 0,
+      "nbrPlaceUnassignableFree": 0,
+      "places": [
+        {
+          "name": "G1",
+          "availability": false,
+          "shopId": 1234567,
+          "reserved": false,
+          "inhabitantIdParked": 1,
+          "inhabitantIdReserved": -1
+        },
+        {
+          "name": "G2",
+          "availability": true,
+          "shopId": 1234567,
+          "reserved": false,
+          "inhabitantIdParked": -1,
+          "inhabitantIdReserved": 13
+        },
+        {
+          "name": "G3",
+          "availability": true,
+          "shopId": 1234567,
+          "reserved": false,
+          "inhabitantIdReserved": 3
+        },
+        {
+          "name": "G4",
+          "availability": true,
+          "shopId": 1234567,
+          "reserved": false,
+          "inhabitantIdParked": -1,
+          "inhabitantIdReserved": -1
+        }
+      ],
+      "placesUnassignable": []
+    }
+  },
+  {
+    "label": "Auctor Ullam",
+    "longitude": "-34.52381",
+    "latitude": "-44.95548",
+    "sellerId": 1854246,
+    "id": 1234568,
+    "storeRating": {
+      "averageRate": 10,
+      "voterNumber": 1
+    },
+    "promotions": [
+      {
+        "title": "Come !",
+        "description": "-70% off ",
+        "startDate": "2021-01-01",
+        "endDate": "2021-01-20",
+        "public": true,
+        "customersNumberInterested": [
+          1987,
+          1
+        ],
+        "notifiedCustomersNumber": [
+          1987,
+          1,
+          2,
+          1867
+        ],
+        "shopId": 1234568,
+        "id": 1608149454587
+      }
+    ],
+    "averagePresenceBeforePurchase": {
+      "numberOfPurchases": 8,
+      "numberOfPresence": 13
+    },
+    "purchasedItems": [
+      [
+        "Jean chino clair",
+        "2"
+      ],
+      [
+        "Pantalon slim noir",
+        "1"
+      ],
+      [
+        "Pantalon slim gris",
+        "1"
+      ],
+      [
+        "Pantalon slim bordeaux",
+        "1"
+      ],
+      [
+        "Pantalon large noir",
+        "0"
+      ],
+      [
+        "Pantalon large gris",
+        "1"
+      ],
+      [
+        "Pantalon large bordeaux",
+        "0"
+      ],
+      [
+        "Chemise grise",
+        "0"
+      ],
+      [
+        "Chemise noire",
+        "0"
+      ],
+      [
+        "Chemise blanche",
+        "0"
+      ],
+      [
+        "Pull bleu marine coupe serré",
+        "1"
+      ],
+      [
+        "Ceinture marron",
+        "1"
+      ],
+      [
+        "Centure noire deuxième dan en C++",
+        "0"
+      ]
+    ],
+    "numberOfPurchaseByAgeRang": [
+      20,
+      10,
+      57,
+      28,
+      17,
+      49
+    ],
+    "numberOfPurchaseBySexRang": [
+      67,
+      114
+    ],
+    "parkingSpace": {
+      "nbrPlace": 4,
+      "nbrPlaceFree": 4,
+      "nbrPlaceUnassignable": 0,
+      "nbrPlaceUnassignableFree": 0,
+      "places": [
+        {
+          "name": "F1",
+          "availability": true,
+          "shopId": 1234568,
+          "reserved": false,
+          "inhabitantIdReserved": -1,
+          "inhabitantIdParked": -1
+        },
+        {
+          "name": "F2",
+          "availability": true,
+          "shopId": 1234568,
+          "reserved": false,
+          "inhabitantIdReserved": -1,
+          "inhabitantIdParked": -1
+        },
+        {
+          "name": "F3",
+          "availability": true,
+          "shopId": 1234568,
+          "reserved": false
+        },
+        {
+          "name": "F4",
+          "availability": true,
+          "shopId": 1234568,
+          "reserved": false,
+          "inhabitantIdParked": -1,
+          "inhabitantIdReserved": -1
+        }
+      ],
+      "placesUnassignable": []
+    }
+  },
+  {
+    "label": "Quis Arcu Industries",
+    "longitude": "-121.19373",
+    "latitude": "44.47807",
+    "sellerId": 1854247,
+    "id": 1234569,
+    "storeRating": {
+      "averageRate": 5,
+      "voterNumber": 1
+    },
+    "purchasedItems": [
+      [
+        "Chaussure marron collection 54-98K",
+        "0"
+      ],
+      [
+        "Basket Nike noire",
+        "3"
+      ],
+      [
+        "Basket Addidas blanche",
+        "2"
+      ],
+      [
+        "Chaussure en cuire marron",
+        "0"
+      ],
+      [
+        "Chaussure mérino",
+        "1"
+      ],
+      [
+        "Dr. Martens",
+        "1"
+      ],
+      [
+        "Converse numéro 85-H8",
+        "1"
+      ],
+      [
+        "Tommy Hilfiger Gris",
+        "3"
+      ],
+      [
+        "Basket Air Jordan rouge",
+        "2"
+      ],
+      [
+        "Timberland Pro grise",
+        "0"
+      ],
+      [
+        "New Balance bleu",
+        "2"
+      ],
+      [
+        "Chaussure homme J.M. Weston",
+        "1"
+      ]
+    ],
+    "promotions": [
+      {
+        "title": "Basket 30% off",
+        "description": "Come and enjoy ",
+        "startDate": "2021-01-04",
+        "endDate": "2021-01-11",
+        "customersNumberInterested": [],
+        "notifiedCustomersNumber": [
+          1987,
+          1867
+        ],
+        "shopId": 1234569,
+        "id": 1609755098285
+      },
+      {
+        "title": "Come",
+        "description": "-99%",
+        "startDate": "2021-01-04",
+        "endDate": "2021-01-05",
+        "customersNumberInterested": [],
+        "notifiedCustomersNumber": [
+          1867
+        ],
+        "shopId": 1234569,
+        "id": 1609756485177
+      }
+    ],
+    "numberOfPurchaseByAgeRang": [
+      9,
+      39,
+      24,
+      13,
+      89,
+      89
+    ],
+    "numberOfPurchaseBySexRang": [
+      247,
+      16
+    ],
+    "averagePresenceBeforePurchase": {
+      "numberOfPurchases": 16,
+      "numberOfPresence": 18
+    },
+    "parkingSpace": {
+      "nbrPlace": 4,
+      "nbrPlaceFree": 4,
+      "nbrPlaceUnassignable": 0,
+      "nbrPlaceUnassignableFree": 0,
+      "placesUnassignable": [],
+      "places": [
+        {
+          "name": "H1",
+          "availability": true,
+          "shopId": 1234569,
+          "reserved": false
+        },
+        {
+          "name": "H2",
+          "availability": true,
+          "shopId": 1234569,
+          "reserved": false,
+          "inhabitantIdParked": -1,
+          "inhabitantIdReserved": -1
+        },
+        {
+          "name": "H3",
+          "availability": true,
+          "shopId": 1234569,
+          "reserved": false,
+          "inhabitantIdParked": -1,
+          "inhabitantIdReserved": -1
+        },
+        {
+          "name": "H4",
+          "availability": true,
+          "shopId": 1234569,
+          "reserved": false
+        }
+      ]
+    }
+  },
+  {
+    "label": "Velit Cras Lorem LLC",
+    "longitude": "107.99904",
+    "latitude": "-30.43336",
+    "sellerId": 1854248,
+    "id": 1234570,
+    "storeRating": {
+      "averageRate": 10,
+      "voterNumber": 1
+    },
+    "promotions": [],
+    "numberOfPurchaseByAgeRang": [
+      55,
+      76,
+      61,
+      72,
+      16,
+      87
+    ],
+    "numberOfPurchaseBySexRang": [
+      16,
+      351
+    ],
+    "parkingSpace": {
+      "nbrPlace": 4,
+      "nbrPlaceFree": 4,
+      "nbrPlaceUnassignable": 0,
+      "nbrPlaceUnassignableFree": 0,
+      "places": [
+        {
+          "name": "I1",
+          "availability": true,
+          "shopId": 1234570,
+          "reserved": false
+        },
+        {
+          "name": "I2",
+          "availability": true,
+          "shopId": 1234570,
+          "reserved": false
+        },
+        {
+          "name": "I3",
+          "availability": true,
+          "shopId": 1234570,
+          "reserved": false
+        },
+        {
+          "name": "I4",
+          "availability": true,
+          "shopId": 1234570,
+          "reserved": false
+        }
+      ],
+      "placesUnassignable": []
+    }
+  },
+  {
+    "label": "Nec Euismod In Associates",
+    "longitude": "28.95557",
+    "latitude": "63.89723",
+    "sellerId": 1854249,
+    "id": 1234571,
+    "storeRating": {
+      "averageRate": 0,
+      "voterNumber": 0
+    },
+    "promotions": [],
+    "purchasedItems": [
+      [
+        "Blouson gris",
+        "0"
+      ],
+      [
+        "Blouson noir",
+        "0"
+      ],
+      [
+        "Manteau gris",
+        "0"
+      ],
+      [
+        "Manteau noir",
+        "0"
+      ],
+      [
+        "Cahouet noir",
+        "0"
+      ],
+      [
+        "Cahouet gris",
+        "0"
+      ],
+      [
+        "Veste d'été marron",
+        "0"
+      ],
+      [
+        "Veste d'été noire",
+        "0"
+      ],
+      [
+        "Veste d'été grise",
+        "0"
+      ],
+      [
+        "Gants d'hiver enfant noir",
+        "0"
+      ],
+      [
+        "Gants d'hiver enfant gris",
+        "0"
+      ],
+      [
+        "Gants d'hiver adulte noir",
+        "0"
+      ],
+      [
+        "Gants d'hiver adulte gris",
+        "0"
+      ]
+    ],
+    "numberOfPurchaseByAgeRang": [
+      44,
+      25,
+      35,
+      33,
+      84,
+      5
+    ],
+    "numberOfPurchaseBySexRang": [
+      49,
+      177
+    ],
+    "parkingSpace": {
+      "nbrPlace": 4,
+      "nbrPlaceFree": 4,
+      "nbrPlaceUnassignable": 0,
+      "nbrPlaceUnassignableFree": 0,
+      "places": [
+        {
+          "name": "E1",
+          "availability": true,
+          "shopId": 1234571,
+          "reserved": false
+        },
+        {
+          "name": "E2",
+          "availability": true,
+          "shopId": 1234571,
+          "reserved": false
+        },
+        {
+          "name": "E3",
+          "availability": true,
+          "shopId": 1234571,
+          "reserved": false
+        },
+        {
+          "name": "E4",
+          "availability": true,
+          "shopId": 1234571,
+          "reserved": false
+        }
+      ],
+      "placesUnassignable": []
+    }
+  },
+  {
+    "label": "Placerat Associates",
+    "longitude": "58.25319",
+    "latitude": "24.39286",
+    "sellerId": 1854250,
+    "id": 1234572,
+    "storeRating": {
+      "averageRate": 0,
+      "voterNumber": 0
+    },
+    "purchasedItems": [
+      [
+        "Boxer noir Calvin Klein",
+        "0"
+      ],
+      [
+        "Boxer blanc Calvin Klein",
+        "0"
+      ],
+      [
+        "Lot 2 boxers Calvin Klein",
+        "0"
+      ],
+      [
+        "Lot 3 boxers Calvin Klean",
+        "0"
+      ],
+      [
+        "Boxer Ck One Calvin Klein",
+        "0"
+      ],
+      [
+        "Boxer Dim noir",
+        "0"
+      ],
+      [
+        "Boxer Dim blanc",
+        "0"
+      ],
+      [
+        "Soutien-gorge noire Calvin Klein",
+        "0"
+      ],
+      [
+        "Soutien-gorge blanc Calvin Klein",
+        "0"
+      ],
+      [
+        "Culotte noire Calvin Klein",
+        "0"
+      ],
+      [
+        "Culotte blanche Calvin Klein",
+        "0"
+      ],
+      [
+        "Chaussette homme noire",
+        "0"
+      ],
+      [
+        "Chaussette homme marron",
+        "0"
+      ],
+      [
+        "Chaussette homme blanche",
+        "0"
+      ],
+      [
+        "Chaussette femme noire",
+        "0"
+      ],
+      [
+        "Chaussette femme marron",
+        "0"
+      ],
+      [
+        "Chaussette femme blanche",
+        "0"
+      ]
+    ],
+    "promotions": [],
+    "numberOfPurchaseByAgeRang": [
+      84,
+      38,
+      65,
+      31,
+      72,
+      86
+    ],
+    "numberOfPurchaseBySexRang": [
+      195,
+      181
+    ],
+    "parkingSpace": {
+      "nbrPlace": 4,
+      "nbrPlaceFree": 4,
+      "nbrPlaceUnassignable": 0,
+      "nbrPlaceUnassignableFree": 0,
+      "places": [
+        {
+          "name": "J1",
+          "availability": true,
+          "shopId": 1234572,
+          "reserved": false,
+          "inhabitantIdReserved": -1,
+          "inhabitantIdParked": -1
+        },
+        {
+          "name": "J2",
+          "availability": true,
+          "shopId": 1234572,
+          "reserved": false,
+          "inhabitantIdParked": -1,
+          "inhabitantIdReserved": -1
+        },
+        {
+          "name": "J3",
+          "availability": true,
+          "shopId": 1234572,
+          "reserved": false
+        },
+        {
+          "name": "J4",
+          "availability": true,
+          "shopId": 1234572,
+          "reserved": false
+        }
+      ],
+      "placesUnassignable": []
+    }
+  },
+  {
+    "label": "At Associates",
+    "longitude": "-51.29545",
+    "latitude": "23.07695",
+    "sellerId": 1854251,
+    "id": 1234573,
+    "storeRating": {
+      "averageRate": 0,
+      "voterNumber": 0
+    },
+    "promotions": [],
+    "numberOfPurchaseByAgeRang": [
+      59,
+      26,
+      19,
+      41,
+      9,
+      34
+    ],
+    "numberOfPurchaseBySexRang": [
+      63,
+      125
+    ],
+    "parkingSpace": {
+      "nbrPlace": 4,
+      "nbrPlaceFree": 4,
+      "nbrPlaceUnassignable": 0,
+      "nbrPlaceUnassignableFree": 0,
+      "places": [
+        {
+          "name": "D1",
+          "availability": true,
+          "shopId": 1234573,
+          "reserved": false
+        },
+        {
+          "name": "D2",
+          "availability": true,
+          "shopId": 1234573,
+          "reserved": false,
+          "inhabitantIdParked": -1,
+          "inhabitantIdReserved": -1
+        },
+        {
+          "name": "D3",
+          "availability": true,
+          "shopId": 1234573,
+          "reserved": false
+        },
+        {
+          "name": "D4",
+          "availability": true,
+          "shopId": 1234573,
+          "reserved": false
+        }
+      ],
+      "placesUnassignable": []
+    }
+  },
+  {
+    "label": "Phasellus Dapibus Associates",
+    "longitude": "-105.99277",
+    "latitude": "85.42695",
+    "sellerId": 1854252,
+    "id": 1234574,
+    "storeRating": {
+      "averageRate": 0,
+      "voterNumber": 0
+    },
+    "purchasedItems": [
+      [
+        "Costume noir homme",
+        "0"
+      ],
+      [
+        "Costume gris homme",
+        "0"
+      ],
+      [
+        "Costume bleu homme",
+        "0"
+      ],
+      [
+        "Costume noir femme",
+        "0"
+      ],
+      [
+        "Costume gris femme",
+        "0"
+      ],
+      [
+        "Costume bleu femme",
+        "0"
+      ],
+      [
+        "Produit nettoyant costume",
+        "0"
+      ],
+      [
+        "Veste de costume homme noir",
+        "0"
+      ],
+      [
+        "Veste de costume homme gris",
+        "0"
+      ],
+      [
+        "Veste de costume homme bleu marine",
+        "0"
+      ],
+      [
+        "Veste de costume femme noir",
+        "0"
+      ],
+      [
+        "Veste de costume femme gris",
+        "0"
+      ],
+      [
+        "Veste de costume femme bleu marine",
+        "0"
+      ]
+    ],
+    "promotions": [],
+    "numberOfPurchaseByAgeRang": [
+      31,
+      48,
+      44,
+      39,
+      23,
+      30
+    ],
+    "numberOfPurchaseBySexRang": [
+      130,
+      85
+    ],
+    "parkingSpace": {
+      "nbrPlace": 4,
+      "nbrPlaceFree": 4,
+      "nbrPlaceUnassignable": 0,
+      "nbrPlaceUnassignableFree": 0,
+      "places": [
+        {
+          "name": "C1",
+          "availability": true,
+          "shopId": 1234574,
+          "reserved": false
+        },
+        {
+          "name": "C2",
+          "availability": true,
+          "shopId": 1234574,
+          "reserved": false
+        },
+        {
+          "name": "C3",
+          "availability": true,
+          "shopId": 1234574,
+          "reserved": false,
+          "inhabitantIdParked": -1,
+          "inhabitantIdReserved": -1
+        },
+        {
+          "name": "C4",
+          "availability": true,
+          "shopId": 1234574,
+          "reserved": false
+        }
+      ],
+      "placesUnassignable": []
+    }
+  },
+  {
+    "label": "Tellus Justo Sit Corp.",
+    "longitude": "113.16627",
+    "latitude": "-31.90523",
+    "sellerId": 1854253,
+    "id": 1234575,
+    "storeRating": {
+      "averageRate": 0,
+      "voterNumber": 0
+    },
+    "promotions": [],
+    "numberOfPurchaseByAgeRang": [
+      48,
+      73,
+      16,
+      6,
+      87,
+      38
+    ],
+    "numberOfPurchaseBySexRang": [
+      9,
+      259
+    ],
+    "parkingSpace": {
+      "nbrPlace": 4,
+      "nbrPlaceFree": 4,
+      "nbrPlaceUnassignable": 0,
+      "nbrPlaceUnassignableFree": 0,
+      "places": [
+        {
+          "name": "K1",
+          "availability": true,
+          "shopId": 1234575,
+          "reserved": false
+        },
+        {
+          "name": "K2",
+          "availability": true,
+          "shopId": 1234575,
+          "reserved": false
+        },
+        {
+          "name": "K3",
+          "availability": true,
+          "shopId": 1234575,
+          "reserved": false,
+          "inhabitantIdParked": -1,
+          "inhabitantIdReserved": -1
+        },
+        {
+          "name": "K4",
+          "availability": true,
+          "shopId": 1234575,
+          "reserved": false
+        }
+      ],
+      "placesUnassignable": []
+    }
+  },
+  {
+    "label": "Est Corporation",
+    "longitude": "-66.97599",
+    "latitude": "-82.26414",
+    "sellerId": 1854254,
+    "id": 1234576,
+    "storeRating": {
+      "averageRate": 0,
+      "voterNumber": 0
+    },
+    "purchasedItems": [
+      [
+        "Canapé large noir",
+        "0"
+      ],
+      [
+        "Canapé large gris",
+        "0"
+      ],
+      [
+        "Canapé large marron",
+        "0"
+      ],
+      [
+        "Canapé large blanc",
+        "0"
+      ],
+      [
+        "Canapé serré noir",
+        "0"
+      ],
+      [
+        "Canapé serré gris",
+        "0"
+      ],
+      [
+        "Canapé serré marron",
+        "0"
+      ],
+      [
+        "Canapé serré blanc",
+        "0"
+      ],
+      [
+        "Fauteuil large noir",
+        "0"
+      ],
+      [
+        "Fauteuil large gris",
+        "0"
+      ],
+      [
+        "Fauteuil large marron",
+        "0"
+      ],
+      [
+        "Fauteuil large blanc",
+        "0"
+      ],
+      [
+        "Fauteuil serré noir",
+        "0"
+      ],
+      [
+        "Fauteuil serré gris",
+        "0"
+      ],
+      [
+        "Fauteuil serré marron",
+        "0"
+      ],
+      [
+        "Fauteuil serré blanc",
+        "0"
+      ]
+    ],
+    "promotions": [],
+    "numberOfPurchaseByAgeRang": [
+      46,
+      33,
+      89,
+      83,
+      14,
+      34
+    ],
+    "numberOfPurchaseBySexRang": [
+      275,
+      24
+    ],
+    "parkingSpace": {
+      "nbrPlace": 4,
+      "nbrPlaceFree": 4,
+      "nbrPlaceUnassignable": 0,
+      "nbrPlaceUnassignableFree": 0,
+      "places": [
+        {
+          "name": "L1",
+          "availability": true,
+          "shopId": 1234576,
+          "reserved": false
+        },
+        {
+          "name": "L2",
+          "availability": true,
+          "shopId": 1234576,
+          "reserved": false
+        },
+        {
+          "name": "L3",
+          "availability": true,
+          "shopId": 1234576,
+          "reserved": false,
+          "inhabitantIdParked": -1,
+          "inhabitantIdReserved": -1
+        },
+        {
+          "name": "L4",
+          "availability": true,
+          "shopId": 1234576,
+          "reserved": false,
+          "inhabitantIdParked": -1,
+          "inhabitantIdReserved": -1
+        }
+      ],
+      "placesUnassignable": []
+    }
+  },
+  {
+    "label": "Dui Nec Tempus Associates",
+    "longitude": "-67.85505",
+    "latitude": "-24.85946",
+    "sellerId": 1854255,
+    "id": 1234577,
+    "storeRating": {
+      "averageRate": 0,
+      "voterNumber": 0
+    },
+    "promotions": [],
+    "numberOfPurchaseByAgeRang": [
+      7,
+      54,
+      77,
+      42,
+      75,
+      55
+    ],
+    "numberOfPurchaseBySexRang": [
+      244,
+      66
+    ],
+    "parkingSpace": {
+      "nbrPlace": 4,
+      "nbrPlaceFree": 4,
+      "nbrPlaceUnassignable": 0,
+      "nbrPlaceUnassignableFree": 0,
+      "places": [
+        {
+          "name": "B1",
+          "availability": true,
+          "shopId": 1234577,
+          "reserved": false,
+          "inhabitantIdReserved": -1,
+          "inhabitantIdParked": -1
+        },
+        {
+          "name": "B2",
+          "availability": true,
+          "shopId": 1234577,
+          "reserved": false,
+          "inhabitantIdReserved": -1
+        },
+        {
+          "name": "B3",
+          "availability": true,
+          "shopId": 1234577,
+          "reserved": false,
+          "inhabitantIdReserved": -1
+        },
+        {
+          "name": "B4",
+          "availability": true,
+          "shopId": 1234577,
+          "reserved": false,
+          "inhabitantIdReserved": -1
+        }
+      ],
+      "placesUnassignable": []
+    }
+  },
+  {
+    "label": "Aenean Egestas Associates",
+    "longitude": "-160.49665",
+    "latitude": "62.74195",
+    "sellerId": 1854256,
+    "id": 1234578,
+    "storeRating": {
+      "averageRate": 5,
+      "voterNumber": 2
+    },
+    "promotions": [],
+    "purchasedItems": [
+      [
+        "Atelier cuisine bleu marine",
+        "0"
+      ],
+      [
+        "Atelier cuisine noir",
+        "0"
+      ],
+      [
+        "Atelier cuisine blanche",
+        "0"
+      ],
+      [
+        "Atelier cuisine grise",
+        "0"
+      ],
+      [
+        "Atelier cuisine marbre gris-noir",
+        "0"
+      ],
+      [
+        "Meuble PM-9897O",
+        "0"
+      ],
+      [
+        "Meuble OK-98",
+        "0"
+      ],
+      [
+        "Meuble AS-O54 édition limitée jaune",
+        "0"
+      ],
+      [
+        "Meuble AS-O54 édition limitée gris",
+        "0"
+      ],
+      [
+        "Meuble AS-O54 édition limitée noir",
+        "0"
+      ],
+      [
+        "Meuble AS-O54 édition limitée blanc",
+        "0"
+      ],
+      [
+        "Meuble TR-KJ-V2 édition gold noir",
+        "0"
+      ],
+      [
+        "Meuble TR-KJ-V2 édition gold gris",
+        "0"
+      ],
+      [
+        "Meuble TR-KJ-V2 édition gold blanc",
+        "0"
+      ]
+    ],
+    "numberOfPurchaseByAgeRang": [
+      7,
+      91,
+      53,
+      32,
+      69,
+      23
+    ],
+    "numberOfPurchaseBySexRang": [
+      112,
+      163
+    ],
+    "parkingSpace": {
+      "nbrPlace": 4,
+      "nbrPlaceFree": 4,
+      "nbrPlaceUnassignable": 0,
+      "nbrPlaceUnassignableFree": 0,
+      "places": [
+        {
+          "name": "A1",
+          "availability": true,
+          "shopId": 1234578,
+          "reserved": false,
+          "inhabitantIdParked": -1,
+          "inhabitantIdReserved": -1
+        },
+        {
+          "name": "A2",
+          "availability": true,
+          "shopId": 1234578,
+          "reserved": false
+        },
+        {
+          "name": "A3",
+          "availability": true,
+          "shopId": 1234578,
+          "reserved": false
+        },
+        {
+          "name": "A4",
+          "availability": true,
+          "shopId": 1234578,
+          "reserved": false
+        }
+      ],
+      "placesUnassignable": []
+    }
+  }
+]

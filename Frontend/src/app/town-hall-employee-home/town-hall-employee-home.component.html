@@ -1,0 +1,26 @@
+<div  class="townHallEmployeerHome">
+  <h4>Welcome {{ townHallEmployee.firstName }} {{ townHallEmployee.lastName }}</h4>
+
+  <div class="townHallEmployeeBlocklyCreation" >
+    <a [routerLink]="['blockly']" class="increaseSize">
+      <mat-icon [inline]="true">add_box</mat-icon>
+    </a>
+  </div>
+
+
+  <div class="townHallEmployeeExit" >
+    <a [routerLink]="['..']" class="increaseSize">
+      <mat-icon [inline]="true" (click)="logout()">exit_to_app</mat-icon>
+    </a>
+  </div>
+
+</div>
+
+
+<h1 style="position: absolute;top: 73.5%;left: 45.2%;text-align: center">
+  new rule
+</h1>
+
+<h1 style="position: absolute;top: 73.5%;left: 71.5%;text-align: center">
+  Log out
+</h1>

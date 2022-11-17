@@ -1,0 +1,37 @@
+<h4 *ngIf="seller != undefined">
+  Welcome to your dedicated space, {{ seller.firstName }}
+</h4>
+<h1>
+  To create an event of your choice, click down in the middle
+</h1>
+
+<div class="sellersblocklycreation" >
+  <a [routerLink]="['blockly']" class="increaseSize">
+    <mat-icon [inline]="true">add_box</mat-icon>
+  </a>
+
+</div>
+
+<div class="sellersshopinformation" >
+  <a [routerLink]="['shop-information']" class="increaseSize">
+    <mat-icon [inline]="true">description</mat-icon>
+  </a>
+</div>
+
+<div>
+  <h2>
+    shop details
+  </h2>
+</div>
+
+<div class="sellersexit" >
+  <a [routerLink]="['..']" class="increaseSize">
+    <mat-icon [inline]="true" (click)="logout()">exit_to_app</mat-icon>
+  </a>
+</div>
+
+<div>
+  <h3>
+    Log out
+  </h3>
+</div>

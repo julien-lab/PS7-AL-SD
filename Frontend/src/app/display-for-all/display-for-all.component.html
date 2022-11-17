@@ -1,0 +1,42 @@
+<div class="display">
+  <h1 style="text-align: center"><br>Welcome to PolyVille Active !</h1>
+
+  <div class="inhabitantDisplay" (click)="openInhabitantsDialog()">
+    <a  class="inhabitantIcon">
+      <mat-icon [inline]="true">account_box</mat-icon>
+      <h1>Inhabitant</h1>
+    </a><br>
+
+  </div>
+
+  <div class="sellerDisplay" (click)="openSellersDialog()">
+    <a  class="sellerIcon">
+      <mat-icon [inline]="true">shop</mat-icon>
+      <h1>Seller</h1>
+    </a><br>
+
+  </div>
+  <div class="culturalActorDisplay" (click)="openCulturalActorsDialog()">
+    <a class="actorIcon">
+      <mat-icon  [inline]="true">supervised_user_circle</mat-icon>
+      <h1>Cultural Actor</h1>
+    </a><br>
+
+  </div>
+
+  <div class="TownHallemployeeDisplay">
+    <a class="TownHallemployeeIcon" (click)="openTownHallEmployeesDialog()">
+      <mat-icon  [inline]="true">perm_identity</mat-icon>
+      <h1>Town Hall Employee</h1>
+    </a><br>
+
+  </div>
+
+  <div class="parkingDisplay">
+    <a class="parkingIcon" [routerLink]="['parking']">
+      <mat-icon  [inline]="true">local_parking</mat-icon>
+      <h1>Parking</h1>
+    </a><br>
+
+  </div>
+</div>

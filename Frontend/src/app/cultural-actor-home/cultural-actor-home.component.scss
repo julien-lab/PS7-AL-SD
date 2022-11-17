@@ -1,0 +1,45 @@
+h4{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 5%;
+  font-size: 4em;
+}
+
+h1{
+  right: 0;
+  left: 0;
+  background-color: inherit;
+  text-align: center;
+  height: 20%;
+}
+
+.culturalActorblocklycreation {
+  position: absolute;
+  top: 50%;
+  left: 45%;
+  align-items: center;
+  text-align: center;
+  font-size: medium;
+
+}
+
+.cActorExit {
+  position: absolute;
+  align-items: center;
+  top: 50%;
+  left: 77%;
+}
+
+.cActorEvents {
+  position: absolute;
+  align-items: center;
+  top: 50%;
+  left:20%;
+  //right: 65%;
+}
+
+.increaseSize
+{
+  font-size: 800%;
+}

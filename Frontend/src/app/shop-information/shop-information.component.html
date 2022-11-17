@@ -1,0 +1,110 @@
+<div *ngIf="shop" >
+  <p class="shopInformation1">{{ shop.label}} </p> <br>
+  <p class="shopInformation2">People near the shop : {{ nbPeopleClose }} </p> <br>
+</div>
+
+
+
+
+<br><br><br><br><br><br><br>
+<div class="sellersexit" >
+  <a [routerLink]="['..']" class="increaseSize">
+    <mat-icon [inline]="true" >exit_to_app</mat-icon>
+  </a>
+</div>
+
+<div class="sellerinfo" >
+  <a  class="increaseSize">
+    <mat-icon [inline]="true" >info</mat-icon>
+  </a>
+</div>
+
+<div *ngIf="shopRate!=undefined">
+  <h2>
+    Your store rating is : {{shopRate}}
+  </h2>
+</div>
+
+<div *ngIf="shopRate==undefined">
+  <h2>
+    Your shop hasn't been rated yet
+  </h2>
+</div>
+
+<br><br><br><br><br><br><br>
+<div>
+  <h3>
+    previous page
+  </h3>
+</div>
+
+<br><br><br><br><br><br><br>
+<div>
+  <table class="tble">
+    <div>
+      <canvas baseChart
+              [datasets]="lineChartData"
+              [labels]="lineChartLabels"
+              [options]="lineChartOptions"
+              [colors]="lineChartColors"
+              [legend]="lineChartLegend"
+              [chartType]="lineChartType"
+              [plugins]="lineChartPlugins">
+      </canvas>
+    </div>
+  </table>
+</div>
+
+<table class="tble2">
+  <tr>
+    <b> Percentage of purchase by age</b>
+  </tr>
+  <tr>
+    <div class="chart-wrapper trclas">
+      <canvas baseChart
+              [data]="doughnutChartData"
+              [labels]="doughnutChartLabels"
+              [chartType]="doughnutChartType">
+      </canvas>
+    </div>
+  </tr>
+  <tr>
+    <b> Percentage of purchase by gender</b>
+  </tr>
+  <tr >
+
+    <div class="chart-wrapper">
+      <canvas baseChart
+              [data]="doughnutChartData2"
+              [labels]="doughnutChartLabels2"
+              [chartType]="doughnutChartType2">
+      </canvas>
+    </div>
+  </tr>
+
+</table>
+
+<div>
+  <a [routerLink]="['othersinformation']" >
+    <mat-icon [inline]="true" style="position: absolute;font-size: 4em;top: 53%;left: 7%">trending_up</mat-icon>
+  </a>
+</div>
+
+<div>
+  <h5>
+    others information
+  </h5>
+</div>
+
+<div *ngIf="presenceNeeded">
+  <h6 style="position: absolute;top: 85%;left: 5%;">
+      how many time people go to your shop before buying an object : {{presenceNeeded}}
+  </h6>
+</div>
+
+
+  <a [routerLink]="['my-parking-places']" class="increaseSize">
+    <button id="runButton" type="button" class="btn btn-success" >Gerer mes places de parking</button>
+  </a>
+
+

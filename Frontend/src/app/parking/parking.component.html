@@ -1,0 +1,66 @@
+<div id="parking" class="card" >
+  <h3 style=" padding: 0.2%"> PARKING </h3>
+  <div class="card-body">
+    <div class="shop" *ngFor="let shop of shops">
+      <div class="shopLabel">
+        <h4> {{shop.label}} </h4>
+      </div>
+      <div class="places">
+        <div class="place" *ngFor="let place of shop.parkingSpace.places" [ngStyle]="{'background-color': !place.availability? 'red' : (place.reserved? 'orange' : 'green') }">
+          {{ place.name }} <br>
+          <span *ngIf="place.inhabitantIdParked !=-1 && place.inhabitantIdParked">
+            ID : {{ place.inhabitantIdParked }} <br>
+            PARKED
+          </span>
+          <span *ngIf="(place.inhabitantIdParked === -1 || !place.inhabitantIdParked) && !place.reserved">
+            FREE
+          </span>
+          <span *ngIf="place.inhabitantIdParked === -1 && place.reserved">
+            ID : {{place.inhabitantIdReserved}} <br>
+            RESERVED
+          </span>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div id="actions" class="card">
+  <div id="enter" class="card">
+    <h3>ENTER</h3><br>
+    <form [formGroup]="enterForm">
+
+      <fieldset>
+        <label for="inhabitantId">Inhabitant ID</label><br>
+        <input type="text" size="20"
+               maxlength="20" value="" id="inhabitantId" [formControlName]="'inhabitantId'" required="required" /><br>
+        <label for="placeName">Place Name</label><br>
+        <input type="text" size="20"
+               maxlength="2" value="" id="placeName" [formControlName]="'placeName'" required="required"/>
+
+      </fieldset>
+      <br>
+      <p>
+        <button type="submit" class="btn btn-success" (click)="submitEnter()"> Enter </button>
+
+      </p>
+    </form>
+
+  </div>
+  <div id="goOut" class="card">
+    <h3>EXIT</h3><br>
+    <form [formGroup]="exitForm">
+
+      <fieldset>
+        <label for="inhabitantId2">Inhabitant ID</label><br>
+        <input type="text" size="20"
+               maxlength="20" value="" id="inhabitantId2" [formControlName]="'inhabitantId'" required="required" /><br>
+      </fieldset>
+      <br>
+      <p>
+        <button type="submit" class="btn btn-danger" (click)="submitExit()"> Exit </button>
+      </p>
+    </form>
+  </div>
+
+</div>

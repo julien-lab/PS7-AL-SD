@@ -1,0 +1,29 @@
+<section>
+  <table id="customers">
+    <tr>
+      <th>Item</th>
+      <th>number of times purchased</th>
+    </tr>
+    <tr *ngFor="let item of items;">
+      <td>{{item[0]}}</td>
+      <td>{{item[1]}}</td>
+    </tr>
+  </table>
+</section>
+
+<div *ngIf="items==undefined || items.length == 0">
+  <h1> No items yet purchased</h1>
+</div>
+<button mat-button (click)="getMale()">Male</button>
+<button mat-button (click)="getFemale()">Female</button>
+<button mat-button (click)="getAll()">All</button>
+
+<div style="position: relative; text-align: center;">
+  <a [routerLink]="['..']" >
+    <mat-icon [inline]="true" style="font-size: 8em;" >exit_to_app</mat-icon>
+  </a>
+</div>
+
+<h1 style="position: relative; text-align: center;">
+  previous page
+</h1>

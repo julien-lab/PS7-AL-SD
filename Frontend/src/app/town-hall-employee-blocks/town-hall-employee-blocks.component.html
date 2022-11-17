@@ -1,0 +1,40 @@
+<div class="content">
+  <div class="blockly" >
+    <ngx-blockly [config]="config" [customBlocks]="customBlocks" [generatorConfig]="generatorConfig"></ngx-blockly>
+  </div>
+  <div class="rules">
+    <table class="table">
+      <thead>
+      <tr>
+        <th scope="col" style="width: 2%">#</th>
+        <th scope="col" style="width: 70%" >Prohibition rules</th>
+        <th scope="col" style="width: 15%">Created By</th>
+        <th scope="col" style="width: 13%"></th>
+      </tr>
+      </thead>
+      <tbody>
+      <tr *ngFor="let rule of ruleList;let i = index">
+        <th scope="row" style="width: 2%" >{{i+1}}</th>
+        <td style="width: 70%"> {{rule.text }} </td>
+        <td style="width: 15%">{{rule.createdBy}}</td>
+        <td style="width: 13%">
+          <button id="runButton2" type="button" class="btn btn-danger" (click)="deleteRule(rule)">Delete</button><br>
+        </td>
+      </tr>
+      </tbody>
+    </table>
+  </div>
+  <div class="createRule">
+    <button id="runButton" type="button" class="btn btn-success" (click)="execute()">Create Rule</button><br>
+  </div>
+</div>
+
+<div style="position: relative; text-align: center;top: 80%">
+  <a [routerLink]="['..']" >
+    <mat-icon [inline]="true" style="font-size: 8em;" >exit_to_app</mat-icon>
+  </a>
+</div>
+
+<h1 style="position: relative; text-align: center;top: 75%">
+  previous p``age
+</h1>

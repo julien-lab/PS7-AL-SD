@@ -1,0 +1,40 @@
+<main class="flex-container" role="main" >
+  <section id="main-section">
+    <h1> Events </h1>
+    <table class="table">
+      <thead>
+      <tr>
+        <th scope="col"></th>
+        <th scope="col">Name</th>
+        <th scope="col">Start Date</th>
+        <th scope="col">End Date</th>
+        <th scope="col">Location</th>
+
+      </tr>
+      </thead>
+      <tbody>
+      <tr *ngFor="let culturalevent of eventList;let i = index">
+        <th scope="row">{{i}}</th>
+        <td>{{culturalevent.title}}</td>
+        <td> {{culturalevent.dateDebut}} </td>
+        <td> {{culturalevent.dateFin}}</td>
+        <td>{{culturalevent.lieu}}</td>
+
+      </tr>
+      </tbody>
+    </table>
+  </section>
+
+</main>
+
+<div>
+  <a [routerLink]="['..']" class="increaseSize">
+    <mat-icon [inline]="true" style="font-size: 8em;position: relative;left: 46%" >exit_to_app</mat-icon>
+  </a>
+</div>
+
+<div style="position: relative;top: -5%">
+  <h1 style="text-align: center">
+    previous page
+  </h1>
+</div>
